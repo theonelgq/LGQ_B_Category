@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644A44786F28A2C0E1885F3E /* Pods_LGQ_B_CategoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F68531549C80897503CA95 /* Pods_LGQ_B_CategoryTests.framework */; };
 		8DE1EF2624BD91EC0042042B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF2524BD91EC0042042B /* AppDelegate.m */; };
 		8DE1EF2924BD91EC0042042B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF2824BD91EC0042042B /* SceneDelegate.m */; };
 		8DE1EF2C24BD91EC0042042B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF2B24BD91EC0042042B /* ViewController.m */; };
@@ -17,6 +18,9 @@
 		8DE1EF3A24BD91EE0042042B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF3924BD91EE0042042B /* main.m */; };
 		8DE1EF4424BD91EE0042042B /* LGQ_B_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF4324BD91EE0042042B /* LGQ_B_CategoryTests.m */; };
 		8DE1EF4F24BD91EE0042042B /* LGQ_B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF4E24BD91EE0042042B /* LGQ_B_CategoryUITests.m */; };
+		8DE1EF5F24BD94F20042042B /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1EF5E24BD94F20042042B /* CTMediator+B.m */; };
+		A9216D67DA1E9C590343F11C /* Pods_LGQ_B_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EED65F438A56B783AA0B3FE /* Pods_LGQ_B_Category.framework */; };
+		F035EB4DEC28B46E0DF44DC7 /* Pods_LGQ_B_Category_LGQ_B_CategoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F06E8456C0DAEBC90658427 /* Pods_LGQ_B_Category_LGQ_B_CategoryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2069382A3E8CB7D2580E9A94 /* Pods-LGQ_B_Category-LGQ_B_CategoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGQ_B_Category-LGQ_B_CategoryUITests.release.xcconfig"; path = "Target Support Files/Pods-LGQ_B_Category-LGQ_B_CategoryUITests/Pods-LGQ_B_Category-LGQ_B_CategoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EED65F438A56B783AA0B3FE /* Pods_LGQ_B_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGQ_B_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E9B14ECFDC699D038B9537 /* Pods-LGQ_B_CategoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGQ_B_CategoryTests.release.xcconfig"; path = "Target Support Files/Pods-LGQ_B_CategoryTests/Pods-LGQ_B_CategoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A4C3F3511801320A18E07F2 /* Pods-LGQ_B_CategoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGQ_B_CategoryTests.debug.xcconfig"; path = "Target Support Files/Pods-LGQ_B_CategoryTests/Pods-LGQ_B_CategoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79350EFCFA76A11C57BEB247 /* Pods-LGQ_B_Category-LGQ_B_CategoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGQ_B_Category-LGQ_B_CategoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-LGQ_B_Category-LGQ_B_CategoryUITests/Pods-LGQ_B_Category-LGQ_B_CategoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F06E8456C0DAEBC90658427 /* Pods_LGQ_B_Category_LGQ_B_CategoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGQ_B_Category_LGQ_B_CategoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD2AF6346594EFCB6CC09E7 /* Pods-LGQ_B_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGQ_B_Category.release.xcconfig"; path = "Target Support Files/Pods-LGQ_B_Category/Pods-LGQ_B_Category.release.xcconfig"; sourceTree = "<group>"; };
 		8DE1EF2124BD91EC0042042B /* LGQ_B_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGQ_B_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE1EF2424BD91EC0042042B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DE1EF2524BD91EC0042042B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +67,10 @@
 		8DE1EF4A24BD91EE0042042B /* LGQ_B_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGQ_B_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE1EF4E24BD91EE0042042B /* LGQ_B_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGQ_B_CategoryUITests.m; sourceTree = "<group>"; };
 		8DE1EF5024BD91EE0042042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE1EF5D24BD94F20042042B /* CTMediator+B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
+		8DE1EF5E24BD94F20042042B /* CTMediator+B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
+		A1F68531549C80897503CA95 /* Pods_LGQ_B_CategoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGQ_B_CategoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B166E035CF290712717E7E /* Pods-LGQ_B_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGQ_B_Category.debug.xcconfig"; path = "Target Support Files/Pods-LGQ_B_Category/Pods-LGQ_B_Category.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9216D67DA1E9C590343F11C /* Pods_LGQ_B_Category.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644A44786F28A2C0E1885F3E /* Pods_LGQ_B_CategoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F035EB4DEC28B46E0DF44DC7 /* Pods_LGQ_B_Category_LGQ_B_CategoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83C25054337B02AE6CD212AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EED65F438A56B783AA0B3FE /* Pods_LGQ_B_Category.framework */,
+				7F06E8456C0DAEBC90658427 /* Pods_LGQ_B_Category_LGQ_B_CategoryUITests.framework */,
+				A1F68531549C80897503CA95 /* Pods_LGQ_B_CategoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DE1EF1824BD91EC0042042B = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +118,8 @@
 				8DE1EF4224BD91EE0042042B /* LGQ_B_CategoryTests */,
 				8DE1EF4D24BD91EE0042042B /* LGQ_B_CategoryUITests */,
 				8DE1EF2224BD91EC0042042B /* Products */,
+				D2234E4CFDCDFC267EF32BAF /* Pods */,
+				83C25054337B02AE6CD212AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +136,7 @@
 		8DE1EF2324BD91EC0042042B /* LGQ_B_Category */ = {
 			isa = PBXGroup;
 			children = (
+				8DE1EF5C24BD94460042042B /* Classes */,
 				8DE1EF2424BD91EC0042042B /* AppDelegate.h */,
 				8DE1EF2524BD91EC0042042B /* AppDelegate.m */,
 				8DE1EF2724BD91EC0042042B /* SceneDelegate.h */,
@@ -140,6 +171,28 @@
 			path = LGQ_B_CategoryUITests;
 			sourceTree = "<group>";
 		};
+		8DE1EF5C24BD94460042042B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8DE1EF5D24BD94F20042042B /* CTMediator+B.h */,
+				8DE1EF5E24BD94F20042042B /* CTMediator+B.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D2234E4CFDCDFC267EF32BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2B166E035CF290712717E7E /* Pods-LGQ_B_Category.debug.xcconfig */,
+				8DD2AF6346594EFCB6CC09E7 /* Pods-LGQ_B_Category.release.xcconfig */,
+				79350EFCFA76A11C57BEB247 /* Pods-LGQ_B_Category-LGQ_B_CategoryUITests.debug.xcconfig */,
+				2069382A3E8CB7D2580E9A94 /* Pods-LGQ_B_Category-LGQ_B_CategoryUITests.release.xcconfig */,
+				6A4C3F3511801320A18E07F2 /* Pods-LGQ_B_CategoryTests.debug.xcconfig */,
+				68E9B14ECFDC699D038B9537 /* Pods-LGQ_B_CategoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DE1EF5324BD91EE0042042B /* Build configuration list for PBXNativeTarget "LGQ_B_Category" */;
 			buildPhases = (
+				96D05730B6EFBEFF214358F4 /* [CP] Check Pods Manifest.lock */,
 				8DE1EF1D24BD91EC0042042B /* Sources */,
 				8DE1EF1E24BD91EC0042042B /* Frameworks */,
 				8DE1EF1F24BD91EC0042042B /* Resources */,
+				8DDAFB298C63519A87959F79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DE1EF5624BD91EE0042042B /* Build configuration list for PBXNativeTarget "LGQ_B_CategoryTests" */;
 			buildPhases = (
+				12FBF32E5F3E693884B53E57 /* [CP] Check Pods Manifest.lock */,
 				8DE1EF3B24BD91EE0042042B /* Sources */,
 				8DE1EF3C24BD91EE0042042B /* Frameworks */,
 				8DE1EF3D24BD91EE0042042B /* Resources */,
@@ -182,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DE1EF5924BD91EE0042042B /* Build configuration list for PBXNativeTarget "LGQ_B_CategoryUITests" */;
 			buildPhases = (
+				FDDE2A7EE1CF7A25C343054A /* [CP] Check Pods Manifest.lock */,
 				8DE1EF4624BD91EE0042042B /* Sources */,
 				8DE1EF4724BD91EE0042042B /* Frameworks */,
 				8DE1EF4824BD91EE0042042B /* Resources */,
+				F593F970FB3DBA93336FECA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,6 +323,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12FBF32E5F3E693884B53E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGQ_B_CategoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DDAFB298C63519A87959F79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGQ_B_Category/Pods-LGQ_B_Category-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGQ_B_Category/Pods-LGQ_B_Category-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGQ_B_Category/Pods-LGQ_B_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D05730B6EFBEFF214358F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGQ_B_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F593F970FB3DBA93336FECA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGQ_B_Category-LGQ_B_CategoryUITests/Pods-LGQ_B_Category-LGQ_B_CategoryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LGQ_B_Category-LGQ_B_CategoryUITests/Pods-LGQ_B_Category-LGQ_B_CategoryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LGQ_B_Category-LGQ_B_CategoryUITests/Pods-LGQ_B_Category-LGQ_B_CategoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDDE2A7EE1CF7A25C343054A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGQ_B_Category-LGQ_B_CategoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DE1EF1D24BD91EC0042042B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,6 +435,7 @@
 				8DE1EF2C24BD91EC0042042B /* ViewController.m in Sources */,
 				8DE1EF3224BD91EC0042042B /* LGQ_B_Category.xcdatamodeld in Sources */,
 				8DE1EF2624BD91EC0042042B /* AppDelegate.m in Sources */,
+				8DE1EF5F24BD94F20042042B /* CTMediator+B.m in Sources */,
 				8DE1EF2924BD91EC0042042B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +603,7 @@
 		};
 		8DE1EF5424BD91EE0042042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B166E035CF290712717E7E /* Pods-LGQ_B_Category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +620,7 @@
 		};
 		8DE1EF5524BD91EE0042042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD2AF6346594EFCB6CC09E7 /* Pods-LGQ_B_Category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +637,7 @@
 		};
 		8DE1EF5724BD91EE0042042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4C3F3511801320A18E07F2 /* Pods-LGQ_B_CategoryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +657,7 @@
 		};
 		8DE1EF5824BD91EE0042042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E9B14ECFDC699D038B9537 /* Pods-LGQ_B_CategoryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +677,7 @@
 		};
 		8DE1EF5A24BD91EE0042042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79350EFCFA76A11C57BEB247 /* Pods-LGQ_B_Category-LGQ_B_CategoryUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LGQ_B_CategoryUITests/Info.plist;
@@ -528,6 +695,7 @@
 		};
 		8DE1EF5B24BD91EE0042042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2069382A3E8CB7D2580E9A94 /* Pods-LGQ_B_Category-LGQ_B_CategoryUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LGQ_B_CategoryUITests/Info.plist;
