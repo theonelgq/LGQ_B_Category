@@ -80,8 +80,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/theonelgq/LGQ_B_Category.git", :commit => "7197e5fc27b00e606f24bb43c80f4d8c9079ab5f" }
+  #spec.source       = { :git => "https://github.com/theonelgq/LGQ_B_Category.git", :commit => "7197e5fc27b00e606f24bb43c80f4d8c9079ab5f" }
 
+  spec.source       = { :git => "https://github.com/theonelgq/LGQ_B_Category.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
