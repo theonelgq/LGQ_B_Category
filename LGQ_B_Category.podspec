@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LGQ_B_Category"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "B业务组分类"
 
   # This description is used to generate tags and improve search results.
